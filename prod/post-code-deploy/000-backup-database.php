@@ -1,0 +1,1 @@
+../../scripts/backup-database.php
