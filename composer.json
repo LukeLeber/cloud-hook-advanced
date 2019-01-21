@@ -1,9 +1,11 @@
 {
     "name": "lleber/cloud-hook-advanced",
+    "version": "1.0.0",
     "description": "An advanced rendition of the cloud-hooks repository focused on automated, predictable, and safe code deployments.",
     "type": "composer-plugin",
     "require": {
-        "lleber/cloudhook-installer-plugin": "dev-master"
+        "lleber/cloudhook-installer-plugin": "dev-master",
+        "composer-plugin-api": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5"
