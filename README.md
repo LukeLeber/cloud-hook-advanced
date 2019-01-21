@@ -6,7 +6,7 @@ For a comprehensive overview of the Cloud Hooks feature, please refer to the can
 
 This project was started in response to a number of pain-points that were encountered with managing enterprise Drupal 8 projects on Acquia Cloud.
 
-It is comprised of a number of hooks that fire in a specific order to help make code deployments faster, more predictable, and to prevent human error.
+It is comprised of a number of hooks that fire in a specific order to help make code deployments faster, more predictable, and less vulnerable to human error.
 
 It was also created because of the lack of ACAPI support for Drush 9.
 
@@ -26,7 +26,7 @@ Before deploying these hooks to an Acquia application, certain steps must be tak
 #### Setting up ACAPI
 To set up ACAPI on an environment, credentials must be installed on the Acquia server(s) being targeted.
 
-This can be accomplished by:
+This can be accomplished by either:
  - running the `ac-api-login` command with Drush 8.
  - Uploading a credentials file at `~/.acquia/cloudapi.conf`.
  
