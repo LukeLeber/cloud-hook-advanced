@@ -16,8 +16,5 @@
             "email": "lukeleber@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "extra": {
-        "class": "lleber\\Composer\\CloudHookPlugin"
-    }
+    "minimum-stability": "dev"
 }
