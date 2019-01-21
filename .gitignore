@@ -1,2 +1,4 @@
 # Ignore IDE-related files
 .idea
+
+/vendor/
