@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "41397c11ff4c9e87f81af13b6a9edb88",
+    "content-hash": "33f9bef8ab1873d09f660ab0e40bed3f",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -381,12 +381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LukeLeber/cloudhook-installer-plugin.git",
-                "reference": "a65c01638bae592ade5222110c35b5b8a0fb1832"
+                "reference": "b90aaeedbd9e0f1d9c9c2116b21a1334a4db81e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LukeLeber/cloudhook-installer-plugin/zipball/a65c01638bae592ade5222110c35b5b8a0fb1832",
-                "reference": "a65c01638bae592ade5222110c35b5b8a0fb1832",
+                "url": "https://api.github.com/repos/LukeLeber/cloudhook-installer-plugin/zipball/b90aaeedbd9e0f1d9c9c2116b21a1334a4db81e0",
+                "reference": "b90aaeedbd9e0f1d9c9c2116b21a1334a4db81e0",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +416,7 @@
                 }
             ],
             "description": "A composer installer plugin for Acquia cloudhooks.",
-            "time": "2019-01-21T03:41:34+00:00"
+            "time": "2019-01-25T00:50:45+00:00"
         },
         {
             "name": "psr/log",
@@ -920,12 +920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "e9f208633ac7ef167801cf4da916e07a6149fa33"
+                "reference": "9a8319d32b6c338826f9181aadfa8865b31ed9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/e9f208633ac7ef167801cf4da916e07a6149fa33",
-                "reference": "e9f208633ac7ef167801cf4da916e07a6149fa33",
+                "url": "https://api.github.com/repos/symfony/process/zipball/9a8319d32b6c338826f9181aadfa8865b31ed9f8",
+                "reference": "9a8319d32b6c338826f9181aadfa8865b31ed9f8",
                 "shasum": ""
             },
             "require": {
@@ -961,7 +961,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16T21:53:39+00:00"
+            "time": "2019-01-24T22:35:38+00:00"
         }
     ],
     "packages-dev": [
@@ -1643,12 +1643,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b880c49bfec871a43702bca8c42b36ccc246f989"
+                "reference": "9394dc3eba44ffcd3fd44293e57e847ecbce3bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b880c49bfec871a43702bca8c42b36ccc246f989",
-                "reference": "b880c49bfec871a43702bca8c42b36ccc246f989",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9394dc3eba44ffcd3fd44293e57e847ecbce3bd6",
+                "reference": "9394dc3eba44ffcd3fd44293e57e847ecbce3bd6",
                 "shasum": ""
             },
             "require": {
@@ -1719,7 +1719,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-01-20T08:19:40+00:00"
+            "time": "2019-01-24T16:01:13+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

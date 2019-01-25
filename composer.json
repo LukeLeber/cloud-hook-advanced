@@ -20,8 +20,12 @@
     "extra": {
         "acquia-cloudhooks": {
             "test-hook": {
-                "events": {"post-code-deploy"},
-                "environments": {"dev"},
+                "events": [
+                    "post-code-deploy"
+                ],
+                "environments": [
+                    "dev"
+                ],
                 "priority": 0
             }
         }
