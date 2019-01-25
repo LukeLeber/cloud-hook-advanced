@@ -2,7 +2,7 @@
     "name": "lleber/cloud-hook-advanced",
     "version": "1.0.0",
     "description": "An advanced rendition of the cloud-hooks repository focused on automated, predictable, and safe code deployments.",
-    "type": "lleber-cloudhook",
+    "type": "acquia-cloudhook",
     "require": {
         "lleber/cloudhook-installer-plugin": "dev-master"
     },
@@ -16,5 +16,14 @@
             "email": "lukeleber@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "acquia-cloudhooks": {
+            "test-hook": {
+                "events": {"post-code-deploy"},
+                "environments": {"dev"},
+                "priority": 0
+            }
+        }
+    }
 }
