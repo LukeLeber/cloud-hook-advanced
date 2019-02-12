@@ -1,33 +1,42 @@
 {
-    "name": "lleber/cloud-hook-advanced",
-    "version": "1.0.0",
-    "description": "An advanced rendition of the cloud-hooks repository focused on automated, predictable, and safe code deployments.",
-    "type": "acquia-cloudhook",
-    "require": {
-        "lleber/cloudhook-installer-plugin": "dev-master"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.5"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Luke Leber",
-            "email": "lukeleber@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "extra": {
-        "acquia-cloudhooks": {
-            "test-hook": {
-                "events": [
-                    "post-code-deploy"
-                ],
-                "environments": [
-                    "dev"
-                ],
-                "priority": 0
-            }
-        }
+  "name": "drupal/cloudhooks-basic",
+  "description": "An advanced rendition of the cloud-hooks repository focused on automated, predictable, and safe code deployments.",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "acquia-cloudhook",
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-gettext": "*",
+    "lleber/cloudhook-installer-plugin": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "mikey179/vfsstream": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\cloudhooks\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Drupal\\Tests\\cloudhooks\\": "tests/src"
+    }
+  },
+  "extra": {
+    "acquia-cloudhooks": {
+      "test-hook": {
+        "class": "\\Drupal\\cloudhooks\\Dummy",
+        "events": [
+          "post-code-deploy"
+        ],
+        "environments": [
+          "dev"
+        ],
+        "priority": 0
+      }
+    }
+  }
 }

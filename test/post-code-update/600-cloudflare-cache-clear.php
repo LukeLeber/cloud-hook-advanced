@@ -1,1 +1,0 @@
-../../scripts/cloudflare-cache-clear.php

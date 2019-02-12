@@ -1,1 +1,0 @@
-../../scripts/varnish-cache-clear.php
