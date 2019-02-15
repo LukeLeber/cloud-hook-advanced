@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LukeLeber/cloudhook-installer-plugin.git",
-                "reference": "3960c32c0ccd8d4df1af6ec918364d855c05ff4c"
+                "reference": "65e3acad2c9f53cbd876727bb79d056e8ab77d80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LukeLeber/cloudhook-installer-plugin/zipball/3960c32c0ccd8d4df1af6ec918364d855c05ff4c",
-                "reference": "3960c32c0ccd8d4df1af6ec918364d855c05ff4c",
+                "url": "https://api.github.com/repos/LukeLeber/cloudhook-installer-plugin/zipball/65e3acad2c9f53cbd876727bb79d056e8ab77d80",
+                "reference": "65e3acad2c9f53cbd876727bb79d056e8ab77d80",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 "MIT"
             ],
             "description": "A composer installer plugin for Acquia cloudhooks.",
-            "time": "2019-02-15T02:35:18+00:00"
+            "time": "2019-02-15T02:38:36+00:00"
         }
     ],
     "packages-dev": [
